@@ -5,11 +5,17 @@ git add .
 git commit -m "Initial commit"
 
 
-git add 'fileName1, fileName2' .   
+git add 'fileName1, fileName2'  
 # adds particular files
+
+git commit -m "Addedd filename1 and fileName2"
 
 git remote add origin https://github.com/username/repo-name.git
 # connects to a particular repository
 
-## git push origin main
+# git push -u origin main
+
+git add 'fileName3, fileName4'
+
+git commit -m "Added fileName3 and fileName4"
 
